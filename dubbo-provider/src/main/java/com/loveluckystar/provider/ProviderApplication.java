@@ -3,12 +3,10 @@ package com.loveluckystar.provider;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Created by mxy on 2017/9/13.
- */
 @SpringBootApplication
-public class Application {
+public class ProviderApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        System.out.println(1112);
+        SpringApplication.run(ProviderApplication.class,args);
     }
 }
